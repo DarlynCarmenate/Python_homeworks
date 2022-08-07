@@ -1,0 +1,9 @@
+id;par_id;name;surname;bd
+1;1;Egor;Ivanov;01.08.2011
+2;1;Misha;Ivanov;02.08.2012
+3;6;Sasha;Petrov;05.12.2014
+4;5;Lesha;Ershov;25.02.2011
+5;6;Masha;Petrova-Vodkina;12.12.2012
+6;4;Grisha;Voronin;02.06.2013
+7;4;Dasha;Voronina;14.11.2011
+8;3;Roma;Andreev;03.03.2012

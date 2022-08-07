@@ -1,0 +1,7 @@
+id;name;surname
+1;Ivan;Ivanov;+7(921)2342233
+2;Semen;Efremov;+7(926)8376539
+3;Maria;Andreeva;+7(986)2783926
+4;Anton;Voronin;+7(912)7363920
+5;Gennadiy;Ershov;+7(921)8372630
+6;Semen;Petrov;+7(926)8752736 
