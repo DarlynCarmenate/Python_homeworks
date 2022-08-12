@@ -1,5 +1,5 @@
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from telegram.ext import CallbackContext
 
 def log(update: Update, context: CallbackContext):
     file = open('db.csv', 'a')

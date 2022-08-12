@@ -1,3 +1,6 @@
+# Создать калькулятор для работы с рациональными и комплексными числами, 
+# организовать меню, добавив в неё систему логирования
+
 from telegram import Bot
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContext, Filters
@@ -10,7 +13,7 @@ dispatcher = updater.dispatcher
 
 def start(update, context):
   log(update, context)
-  context.bot.send_message(update.effective_chat.id, f'Привет, {update.effective_user.first_name}! Я могу посчитать рациональные или полные комплекснаые числа. Введи пример: ')
+  context.bot.send_message(update.effective_chat.id, f'Привет, {update.effective_user.first_name}! Я могу посчитать рациональные или полные комплексные числа. Введи пример, используй пробелы: ')
   # context.bot.send_message(update.effective_chat.id,'Привет')
 
 def calc_command(update: Update, context: CallbackContext):

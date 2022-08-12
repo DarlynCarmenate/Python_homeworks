@@ -1,3 +1,5 @@
+#Написать игру крестики-нолики в виртуальном окружении с ботом
+
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from random import randint as rd
