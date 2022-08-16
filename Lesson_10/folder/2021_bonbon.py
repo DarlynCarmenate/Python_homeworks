@@ -1,6 +1,5 @@
 #Написать игру с конфетами через бота, вариант человек против человека
 
-from distutils.command.build_scripts import first_line_re
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
 from random import randint as rd
@@ -12,13 +11,11 @@ dispatcher = updater.dispatcher
 START = 0
 FIRST = 1
 SECOND = 2
-sweets = 100
-flag = 0
 
 def start(update, context):
     global flag
     global sweets 
-    sweets = 100
+    sweets = 2021
     first = rd(1, 2)
     print(first)
     flag = first
